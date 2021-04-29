@@ -1,0 +1,129 @@
+/*body */
+/*header*/
+/*barre de navigation*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    font-weight: bolder;
+    
+   
+}
+body{
+    background: radial-gradient(rgb(99, 165, 196),#dd8b8b);
+
+}
+body.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4));
+    background-position: center;
+    background-size: cover;
+    
+     }
+    
+.form_box{
+    width: 420px;
+    height: 600px;
+    position: relative;
+    margin: 6% auto;
+    background:white;
+    padding : 5px;
+    overflow : hidden;
+    border-radius: 10%;
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.8);
+
+}
+.button-box{
+    width: 250px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px;
+    border-radius: 20px;
+}
+.toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+}
+
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 140px;
+    height: 100%;
+    background: #ff523b;;
+
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input-group{
+    top: 180px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+    
+}
+.inputs{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #ff523b;;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.check-box{
+    margin :30px 10px 30px 0;
+}
+span{
+    
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+    font-weight: 30%;
+    background-color: white;
+}
+
+#login{
+    left:50px;
+    background-color: white;
+}
+#Register{
+    
+    left: 100%;
+    background-color: white;
+}
+.input-group .submit-btn a{
+    text-decoration: none;
+    color: black;
+    
+    background: #ff523b;;
+    font-weight: bold;
+}
+
+/*fin de body*/

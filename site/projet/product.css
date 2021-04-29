@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'poppins',sans-serif;
+}
+.container1
+{
+	width: 100%;
+	margin-top: 10%;
+	font-family: sans-serif;
+	letter-spacing: 1px;
+}
+.container1 h2
+{
+	background: #0062cc;
+	color: #fff;
+	width: 200px;
+	font-size: 24px;
+	padding: 5px;
+	height: 40px;
+}
+.container1 h2::after
+{
+	content: '';
+	border-top: 40px solid #0062cc;
+	border-right: 40px solid transparent;
+	position: relative;
+	left:48px;
+	top: 34px;
+}
+.row1
+{
+	margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+img
+{
+	width: 100%;
+}
+.product-bottom .fa
+{
+	color: #28a745;
+	font-size: 10px;
+}
+.product-bottom h3
+{
+	font-size: 20px;
+	font-weight: bold;
+} 
+.product-bottom h5
+{
+	font-size: 15px;
+	padding-bottom: 10px;
+} 
+.overlay
+{
+	display: block;
+	opacity: 0;
+	position: absolute;
+	top: 10%;
+	margin-left: 0;
+	width: 70px;
+}
+.product-top:hover .overlay
+{
+	opacity: 1;
+	margin-left: 5%;
+	transition: 0.5s;
+}
+.overlay .fa
+{
+	cursor: pointer;
+	background-color: #fff;
+	color: #000;
+	height: 35px;
+	width: 35px;
+	font-size: 20px;
+	padding: 7px;
+	margin: 5%;
+	margin-bottom: 5%;
+}
+.overlay .btn-secondary
+{
+	background: transparent !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.bntn{
+    width: 15%;
+    height: 40px;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+    font-size:20px;
+    font-weight: bold;
+    background-color:#ec5643 ;
+    transition: transform 0.3s;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    
+    
+
+}
+.bntn:hover{
+    background-color: #61e961;
+    transition: 0.5s;
+    transform: translateX(5px);
+    outline: none;
+    
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(182, 168, 182);
+    opacity: 0.9;
+    
+}
+.navbar:hover{
+    background-color: rgb(202, 181, 218);
+}
+.logo #log{
+    width: 50%;   
+}
+
+
+nav{
+    flex: 1;
+    text-align: right;
+    
+}
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    height: 80px;
+
+}
+nav ul li{
+    display: inline-block;
+    
+    
+}
+a{ font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #555;
+    margin-right: 20px;
+    border-radius: 10px;
+
+
+}
+a:hover{
+    
+    background:rgb(214, 213, 213);
+
+}
+
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.btn{
+    display: inline-block;
+    background-color:#ec5643 ;
+    color: #fff;
+    padding :20px 50px;
+    margin: 30px 0;
+    border-radius: 30px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.7);
+    
+    
+    
+}
+.btn:hover{
+    background: #61e961;
+    color: black;
+    transition: 0.5s;
+    transform: translateX(5px)
+}
+.header{
+    height: 35rem;
+    margin-top: -180px;
+    
+}
+.header .row{
+    margin-top: 15%;
+}
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding:60px 0 20px;
+    
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex-basis: 30%;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    
+}

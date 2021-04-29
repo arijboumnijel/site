@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title> Yours | Ecommerce Website</title>
+    <link rel="stylesheet" href="pagepaiment.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><br>
+    <div class="header">
+        <div class="container">
+           
+            <div class="row">
+                <div class="navbar">
+                    <div class="logo">
+                        <img id="log" src="logosite.png" width="125px">
+                    </div>
+                    <nav>
+                        
+                        <ul id="MenuItems">
+                            <br><br>
+                            <li><a href="/accueil.html">Home</a></li>
+                            <li><a href="">About</a></li></>
+                            <li><a href="/contact/contact.html">Contact</a></li>
+                        </ul>
+                        
+                    </nav>
+                    <img src="cart.png" width="30px" height="30px">
+                    <img src="menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+                    
+                    <a class="bntn" href="/login.html"> Log In</a>  
+                </div>
+                
+
+            </div>
+
+        </div>
+    </div> 
+
+<!--Contenu de la formulaire de paiment -->
+
+<div class="paiment">
+    
+   
+        <div class="div1">
+        <h2  style="text-decoration: underline;">Billing Adress</h2>
+        <label for="fname"><i class="fa fa-user"> Full Name</i>  </label> <br>
+        <input id="inputs"  type=text id="fname" name="firstname" placeholder="Entrer votre nom "><br>
+
+        <label for="email"><i class="fa fa-envelope"> Email</i>  </label> <br>
+        <input   id="inputs" type=text id="email" name="email" placeholder="Entrer votre  email "><br>
+
+        <label for="adr"><i class="fa fa-address-caed-o"> Addresse num 1</i>  </label><br>
+        <input id="inputs"  type=text id="adr" name="address" placeholder="Entrer votre adresse"><br>
+        <label for="adr"><i class="fa fa-address-caed-o"> Address num 2 (Facultatif)</i>  </label><br>
+        <input id="inputs"  type=text id="adr" name="address" placeholder="Entrer votre adresse"><br>
+
+
+        <label for="city"><i class="fa fa-institution">City</i>  </label><br>
+        <input id="inputs"  type=text id="city" name="city" placeholder="cité "><br>
+        
+           
+        <label for="codepostal">Code postal </label><br>
+        <input id="inputs"  type=text id="codepost" name="codepost" placeholder="code postal"> <br>
+  
+          
+        <label for="Numtel" >Numéro de téléphone</label><br>
+        <input  id="inputs" type=text id="numtel" name="codepost" placeholder="Saisir votre numéro de téléphone">
+  
+
+        </div>
+
+
+        <div class="div2">
+                <h2 style="text-align: center;text-decoration:underline;"> Choisissez votre mode  de paiment </h2>
+                <br><br><br><br>
+
+             <p style="margin-top: -40px;margin-left: 70px;font-size: 1.2rem;"><strong>paiment par carte bancaire</strong> </p>
+                    
+                <div id="lesimages">
+                    
+                        <figure id="im">
+                        <img  width="100px"  src="/pagepaiment/cb.jpg">
+                        <figcaption  ><input id="ch"  type="checkbox" ></figcaption>
+                    </figure>    
+
+                    <figure >
+                        <img  width="120px" style="margin-left: -250px;" src="/pagepaiment/mastercard.png">
+                        <figcaption><input id="ch" style="margin-left: -200px;" type="checkbox"></figcaption>
+                    </figure>   
+                    <figure >
+                        <img  width="120px"  style="margin-left: -100px;"src="/pagepaiment/masterpass.png"> <br><br><br>
+                        <figcaption style="margin-left: 35px;" ><input id="ch" style="margin-left: -100px;"  type="checkbox"> </figcaption>
+                    </figure>  
+
+                    <figure >
+                        <img  width="120px" style="margin-left: -20px;"src="/pagepaiment/Paypal.png"><br><br>
+                        <figcaption style="margin-left: 20px;" ><input style="margin-left: 20px;" " id="ch" type="checkbox"></figcaption>
+                    </figure>   
+               </div> 
+               <br><br>
+              
+                 
+
+           
+            <figure style="margin-left:20px; margin-top:-25px;">
+                <img  width="100px"      src="/pagepaiment/visa.png">
+                <figcaption style="margin-left: 35px;"><input  type="checkbox"></figcaption>
+                <br><br><br>
+            </figure>   
+      
+              
+            
+           <p style="margin-top: -40px;margin-left: 70px;font-size: 1.2rem;"><strong>paiment cash à la livraison</strong> </p> 
+            <pre><strong>TOTAL des articles  </strong>                                                140DT</pre> 
+            <pre><strong>FRAIS de la livraison  </strong>                                               45DT</pre> <hr>
+            <pre><strong>TOTAL </strong>                                                               219DT</pre>
+          <br>
+          <button id="bt" style="background-color: #ff523b;">Confirmer la commande </button>        
+       
+       
+        </div>
+  
+
+
+</div>
+<br><br><br><br><br>
+<!----------footer------------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download our App</h3>
+                <p>Download App for Android and ios mobile phone.</p>
+                <div class="app-logo">
+                    <img src="play-store.png" >
+                    <img src="app-store.png" >
+
+                </div>
+            </div>
+
+
+
+            <div class="footer-col-2">
+               <img src="logo.PNG" >
+               <p></p>
+           </div>
+
+
+
+
+           <div class="footer-col-3">
+               <h3>Useful links</h3>
+               <ul>
+                   <li>coupons</li>
+                   <li>Blog Post</li>
+                   <li>Return Policy</li>
+                   <li>Join Affiliate</li>
+               </ul>
+           </div>
+
+
+           <div class="footer-col-4">
+               <h3>Follow us </h3>
+               <ul>
+                   <li>Facebook</li>
+                   <li>Twitter</li>
+                   <li>Instagram</li>
+                   <li>Youtube</li>
+               </ul>
+           </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2020 -2021</p>
+    </div>
+</div>
+</body>
+</html>

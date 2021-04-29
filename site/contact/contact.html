@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Yours | Ecommerce Website</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap');">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+
+            <div class="row">
+                <div class="navbar">
+                    <div class="logo">
+                        <img id="log" src="logosite.png" width="125px">
+                    </div>
+                    <nav>
+
+                        <ul id="MenuItems">
+                            <li><a href="/accueil.html">Home</a></li>
+                            <li><a href="">About</a></li>
+                                
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+
+                    </nav>
+                    <img src="cart.png" width="30px" height="30px">
+                    <img src="menu.png" width="30px" height="30px" class="menu-icon" onclick="menutoggle()">
+
+                    <a class="bntn" href="login.html"> Log In</a>
+                </div>
+                <div class="col-2">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <h1>Contact us </h1>
+                    <p>How can we help you ? </p>
+
+
+                </div>
+                <div class="col-2">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <img src="kv-contact-us-xs.jpg">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="ar">
+            <p> Call us <br> <br> 30620583 </p>
+            <img src="customer-service.png" alt="call" height="150px" width="150px">
+
+        </div>
+
+
+        <div class="ar1">
+            <div class="form">
+
+                <h2>Send Message </h2>
+                <br>
+                <form action="contact.html" method="POST">
+
+                    <input class="f" type="text" name="user name" placeholder="user_name ">
+                    <br><br>
+
+                    <input class="f" type="email" name="email" placeholder="email">
+                    <br><br>
+                    <input class="f" type="" name="" placeholder="Type your message " height="400px" width="400px">
+                </form>
+                <br> <br>
+                <P class="login"><a href="" class="button">Send</a></P>
+                <br>
+
+            </div>
+            <img class="u" src="message.png" alt="call" height="150px" width="150px">
+
+        </div>
+        <p class="ra">Service hours: Monday to Friday 8 a.m. to 8 p.m. and Saturday 9 a.m. to 6 p.m. </p>
+
+
+
+
+
+
+        <h1 class="tt">Follow us on our social network </h1>
+        <br> <br>
+
+    </div>
+
+    <!----------feautured categories------------->
+
+    <!----------brands------------->
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="facebook--600.png">
+                </div>
+                <div class="col-5">
+                    <img src="unnamed.png">
+                </div>
+                <div class="col-51">
+                    <img src="youtube-logo.png">
+                </div>
+                <div class="col-51">
+                    <img src="Twitter_Bird.svg.png">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!----------footer------------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png">
+                        <img src="app-store.png">
+
+                    </div>
+                </div>
+
+
+                <div class="footer-col-2">
+                    <img src="logo.PNG">
+                    <p></p>
+                </div>
+
+
+                <div class="footer-col-3">
+                    <h3>Useful links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+
+
+                <div class="footer-col-4">
+                    <h3>Follow us </h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020 -2021</p>
+        </div>
+    </div>
+    <!----------js for toggle menu------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px";
+            } else {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

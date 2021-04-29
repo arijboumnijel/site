@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width,initial-scale-1">
+    <title> Sign in  </title>
+
+    <link  rel="stylesheet"    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  rel="stylesheet"    href="stylelogin.css" >
+  </head>
+  <body>
+        
+
+        <div class="hero">
+            <div class="form_box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()"> Log In  </button>
+                    <button type="button" class="toggle-btn" onclick="Register()">Register</button>
+                </div>
+
+                <form id="login" class="input-group">
+                   
+                    <input type="text" class="inputs" placeholder="User Name" required</i>
+                    <input type="password" class="inputs" placeholder=" Password" required>
+                    <input type="checkbox" class="check-box"><span> Remember Password</span>
+                    <button type="submit" class="submit-btn"><a href="accueil.html">Log in </a> </button>
+                </form>
+                <form id="Register"  class="input-group">
+                    <input type="text" class="inputs" placeholder="User Name" required>
+                    <input type="email" class="inputs" placeholder=" E_mail" required>
+                    <input type="password" class="inputs" placeholder="Password " required>
+                    <input type="checkbox" class="check-box"><span>I agree next</span>
+                    <button type="submit" class="submit-btn"><a href="accueil.html">Register</a></button>
+                </form>
+            </div>
+         
+        </div>
+        <script>
+            var x = document.getElementById("login");
+            var y = document.getElementById("Register");
+            var z = document.getElementById("btn");
+
+            function Register(){
+                x.style.left="-400px";
+                y.style.left="50px";
+                z.style.left="110px";
+            }
+            function login(){
+                x.style.left="50px";
+                y.style.left="450px";
+                z.style.left="0";
+             }
+        </script>
+    </body>
+</html>
+    
